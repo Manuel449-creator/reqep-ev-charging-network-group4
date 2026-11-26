@@ -10,8 +10,8 @@ Project board: [REQEP Group 4 – EV Charging Network](https://github.com/users/
 | Requirement | Covered by | Status |
 |---|---|---|
 | Create a **public** GitHub repository for the team project | this repository (public) | ✅ |
-| Invite team members + lecturer to the repository | #33 | ⚠️ GitHub usernames missing |
-| Create a new GitHub project using the **Kanban template** | Project #2 (Kanban template: Backlog / Ready / In progress / In review / Done), linked to the repository | ✅ (project is still *private*, see open points) |
+| Invite team members + lecturer to the repository | #33 – team invited (`wi25b065` accepted, `wi25b019` pending) | ⚠️ lecturer's GitHub username missing |
+| Create a new GitHub project using the **Kanban template** | Project #2 (Kanban template: Backlog / Ready / In progress / In review / Done), linked to the repository, public | ✅ |
 | Insert all User Stories into the Backlog | 32 User Story issues #1–#32 (= all tasks of the User Story Map / FA3) | ✅ |
 | Move high-priority User Stories into *Ready* | IA6 stories #1, #17, #18, #21, #22, #29 in *Ready*; #35 | ✅ |
 | Team members select User Stories and work on them | README → Workflow, issue/PR templates | ✅ |
@@ -106,9 +106,8 @@ Project board: [REQEP Group 4 – EV Charging Network](https://github.com/users/
 
 ## Open points
 
-1. **GitHub usernames** of Konstantin Mikula, Christopher Schramme and the lecturer are needed for the invitations (#33).
-2. **Project visibility:** the GitHub Project is *private*. The lecturer can only see it if it is made public or if they get access.
-3. **Build not verified:** `pom.xml` (Cucumber 8.1.0, JUnit 6.1.3, Java 21) has not been built yet – check in IntelliJ (#39).
-4. **MVP split:** C-04 Top-up and C-05 View Balance were assigned to IA7 (dynamic, part of the Ledger). Move them to IA6 if the team sees them as static Customer data.
-5. **Miro board:** the header still says "Group [Group ID]"; O-10 is missing in the numbering (fix both for FA8, #45).
-6. Only Markdown versions of FA1/FA3 are in the repository, not the submitted PDFs.
+1. **Lecturer invitation:** the team is invited; the lecturer's GitHub username is still needed (#33).
+2. **Build not verified:** `pom.xml` (Cucumber 8.1.0, JUnit 6.1.3, Java 21) has not been built yet – check in IntelliJ (#39).
+3. **MVP split:** C-04 Top-up and C-05 View Balance were assigned to IA7 (dynamic, part of the Ledger). Move them to IA6 if the team sees them as static Customer data.
+4. **Miro board:** the header still says "Group [Group ID]"; O-10 is missing in the numbering (fix both for FA8, #45).
+5. Only Markdown versions of FA1/FA3 are in the repository, not the submitted PDFs.
