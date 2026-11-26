@@ -1,0 +1,32 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+.vscode/
+
+# Java
+*.class
+*.log
+hs_err_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Submission archives (created for Moodle, not versioned)
+Project-*.zip

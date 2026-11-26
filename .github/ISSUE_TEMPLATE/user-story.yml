@@ -1,0 +1,53 @@
+name: User Story
+description: A User Story from the User Story Map (one task = one story)
+title: "[C-xx/O-xx] <short title>"
+labels: ["user-story"]
+body:
+  - type: input
+    id: story-id
+    attributes:
+      label: Story ID
+      description: ID from the User Story Map (e.g. C-04, O-08)
+    validations:
+      required: true
+  - type: dropdown
+    id: epic
+    attributes:
+      label: Epic / feature file
+      options:
+        - E-C1 Get Started
+        - E-C2 Find Charging Point
+        - E-C3 Charge Vehicle
+        - E-C4 Review Account
+        - E-O1 Manage Network
+        - E-O2 Manage Pricing
+        - E-O3 Monitor Network
+        - E-O4 Manage Customers
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: User Story
+      description: "As <Customer/Owner>, I want <function>, so that <value>. Use glossary terms only."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria (Scenarios)
+      description: The Scenarios that will be written in the feature file
+      value: |
+        - [ ] Scenario 1:
+        - [ ] Scenario 2:
+        - [ ] Error / edge case:
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of Done
+      options:
+        - label: Scenarios in the Epic's feature file (glossary terms only)
+        - label: Step definitions implemented, all tests green
+        - label: Business domain objects / management classes implemented
+        - label: Main program demonstrates the behaviour
+        - label: Reviewed and merged into main

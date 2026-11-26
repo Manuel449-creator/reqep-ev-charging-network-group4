@@ -1,0 +1,21 @@
+name: Task
+description: A task that is not a User Story (deliverable, documentation, setup, ...)
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs to be done?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      value: |
+        - [ ]
+  - type: input
+    id: deliverable
+    attributes:
+      label: Related deliverable
+      description: e.g. FA5, IA6
