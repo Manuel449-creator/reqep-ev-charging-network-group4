@@ -22,9 +22,9 @@ Project board: [REQEP Group 4 – EV Charging Network](https://github.com/users/
 
 | Requirement | Covered by | Status |
 |---|---|---|
-| Business domain objects with attributes & methods and relations (generalization, association, aggregation, composition) | #37 | ⏳ |
-| Management classes and main class in the diagram | #37 | ⏳ |
-| UML class diagram in Modelio, exported as `Domain-Model_<group-id>.pdf` | #38, `docs/domain-model/` | ⏳ |
+| Business domain objects with attributes & methods and relations (generalization, association, aggregation, composition) | #37, `docs/domain-model/` | ✅ |
+| Management classes and main class in the diagram | #37 (`LocationManager`, `CustomerManager`, `Main`) | ✅ |
+| UML class diagram in Modelio, exported as `Domain-Model_<group-id>.pdf` | `docs/domain-model/Domain-Model_Group4.pdf`; Moodle submission #38 | ⏳ submit in Moodle |
 
 ## IA6 – BDD MVP Part 1, static (due 2026-12-09)
 

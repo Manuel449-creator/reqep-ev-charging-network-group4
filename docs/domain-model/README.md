@@ -1,6 +1,7 @@
 # Domain Model Diagram (FA5)
 
-Draft (Mermaid, rendered on GitHub): [domain-model.md](domain-model.md)
+- **Modelio export (FA5):** [Domain-Model_Group4.pdf](Domain-Model_Group4.pdf) – UML class diagram created in Modelio 4.1
+- Draft (Mermaid, rendered on GitHub): [domain-model.md](domain-model.md)
 
 UML class diagram of the business domain objects created with [Modelio](https://www.modelio.org), exported as `Domain-Model_Group4.pdf`.
 
