@@ -10,7 +10,7 @@ Project board: [REQEP Group 4 – EV Charging Network](https://github.com/users/
 | Requirement | Covered by | Status |
 |---|---|---|
 | Create a **public** GitHub repository for the team project | this repository (public) | ✅ |
-| Invite team members + lecturer to the repository | #33 – team invited (`wi25b065` accepted, `wi25b019` pending) | ⚠️ lecturer's GitHub username missing |
+| Invite team members + lecturer to the repository | #33 – `wi25b065`, `wi25b019` (collaborators, write); lecturer `robert-jonas-technikum-wien-at` invited | ✅ (lecturer invitation pending) |
 | Create a new GitHub project using the **Kanban template** | Project #2 (Kanban template: Backlog / Ready / In progress / In review / Done), linked to the repository, public | ✅ |
 | Insert all User Stories into the Backlog | 32 User Story issues #1–#32 (= all tasks of the User Story Map / FA3) | ✅ |
 | Move high-priority User Stories into *Ready* | IA6 stories #1, #17, #18, #21, #22, #29 in *Ready*; #35 | ✅ |
@@ -30,7 +30,7 @@ Project board: [REQEP Group 4 – EV Charging Network](https://github.com/users/
 
 | Requirement | Covered by | Status |
 |---|---|---|
-| IntelliJ Maven project with Cucumber (archetype setup) | `pom.xml`, `RunCucumberTest`; verification in #39 | ⏳ not built yet |
+| IntelliJ Maven project with Cucumber (archetype setup) | `pom.xml`, `RunCucumberTest`, shared run configurations in `.run/`; build verified with JDK 27 (#39) | ✅ |
 | Feature files **epic-wise** | 8 feature files in `src/test/resources/at/technikum/evcharging/features/` (one per Epic E-C1 … E-O4) | ✅ skeleton |
 | Scenarios (acceptance criteria) for each static User Story, **≥ 2 per step task** | #1 C-01, #17 O-01, #18 O-02, #21 O-05, #22 O-06, #29 O-14 | ⏳ |
 | Examples: 10 Locations, 2–5 Charging Points per Location, 5 Customers | #40 | ⏳ |
@@ -106,8 +106,8 @@ Project board: [REQEP Group 4 – EV Charging Network](https://github.com/users/
 
 ## Open points
 
-1. **Lecturer invitation:** the team is invited; the lecturer's GitHub username is still needed (#33).
-2. **Build not verified:** `pom.xml` (Cucumber 8.1.0, JUnit 6.1.3, Java 21) has not been built yet – check in IntelliJ (#39).
+1. **Lecturer invitation** is pending until the lecturer accepts it (#33). Collaborators of a personal repository cannot get the admin role; only the owner can change repository settings.
+2. **Build:** `mvn test` and the main program run with Oracle OpenJDK 27 (Cucumber 8.1.0, JUnit 6.1.3, release 21). Every team member still opens the project in IntelliJ once (#34).
 3. **MVP split:** C-04 Top-up and C-05 View Balance were assigned to IA7 (dynamic, part of the Ledger). Move them to IA6 if the team sees them as static Customer data.
 4. **Miro board:** the header still says "Group [Group ID]"; O-10 is missing in the numbering (fix both for FA8, #45).
 5. Only Markdown versions of FA1/FA3 are in the repository, not the submitted PDFs.

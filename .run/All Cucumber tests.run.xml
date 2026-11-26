@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All Cucumber tests" type="JUnit" factoryName="JUnit">
+    <module name="ev-charging-network" />
+    <option name="PACKAGE_NAME" value="at.technikum.evcharging" />
+    <option name="MAIN_CLASS_NAME" value="at.technikum.evcharging.RunCucumberTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -29,11 +29,12 @@ All terms used in this repository follow the **[Glossary](docs/glossary.md)**.
 ## Getting started
 
 1. Clone the repository and open it in IntelliJ IDEA (*File → Open → pom.xml → Open as Project*).
-2. Run all acceptance tests: right-click `RunCucumberTest` → *Run*, or on the command line:
+   Set the project SDK to the latest Oracle OpenJDK (*File → Project Structure → SDK*) and install the plugins *Cucumber for Java* and *Gherkin*.
+2. Run all acceptance tests with the shared run configuration **All Cucumber tests** (or right-click `RunCucumberTest` → *Run*), or on the command line:
    ```bash
    mvn test
    ```
-3. Run the main program (`at.technikum.evcharging.Main`) from IntelliJ, or:
+3. Run the main program with the run configuration **Main** (`at.technikum.evcharging.Main`), or:
    ```bash
    mvn compile exec:java
    ```
